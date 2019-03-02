@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.river.project.snakegame"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>SnakeGame mobile_ver</name>
+
+  <description>
+      Snake game made using JavaScript with p5js libarary
+  </description>
+
+  <author href="https://www.facebook.com/kevin.tung.39" email="chen0625tung@gmail.com">
+      River2056
+  </author>
+
+  <platform name="android">
+        <!--
+            ldpi    : 36x36 px
+            mdpi    : 48x48 px
+            hdpi    : 72x72 px
+            xhdpi   : 96x96 px
+            xxhdpi  : 144x144 px
+            xxxhdpi : 192x192 px
+        -->
+        <icon src="res/icon/android/ldpi.png" density="ldpi" />
+        <icon src="res/icon/android/mdpi.png" density="mdpi" />
+        <icon src="res/icon/android/hdpi.png" density="hdpi" />
+        <icon src="res/icon/android/xhdpi.png" density="xhdpi" />
+        <icon src="res/icon/android/xxhdpi.png" density="xxhdpi" />
+        <icon src="res/icon/android/xxxhdpi.png" density="xxxhdpi" />
+    </platform>
+
+    <platform name="windows">
+        <icon src="res/windows/storelogo.png" target="StoreLogo" />
+        <icon src="res/windows/smalllogo.png" target="Square30x30Logo" />
+        <icon src="res/windows/Square44x44Logo.png" target="Square44x44Logo" />
+        <icon src="res/windows/Square70x70Logo.png" target="Square70x70Logo" />
+        <icon src="res/windows/Square71x71Logo.png" target="Square71x71Logo" />
+        <icon src="res/windows/Square150x150Logo.png" target="Square150x150Logo" />
+        <icon src="res/windows/Square310x310Logo.png" target="Square310x310Logo" />
+        <icon src="res/windows/Wide310x150Logo.png" target="Wide310x150Logo" />
+    </platform>
+
+</widget>

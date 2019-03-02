@@ -1,0 +1,4 @@
+(mouseX > up.x && mouseX < up.x + up.width) && (mouseY > up.y && mouseY < up.y + up.height)
+
+
+floor(random((this.scl + (width - this.scl)) / this.scl)) * this.scl;
