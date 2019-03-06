@@ -2,3 +2,17 @@
 
 
 floor(random((this.scl + (width - this.scl)) / this.scl)) * this.scl;
+
+case PAUSE:
+      up.show();
+      down.show();
+      left.show();
+      right.show();
+      s.display();
+      food.display();
+      fill(255);
+      textSize(30);
+      textAlign(CENTER);
+      text("SCORE :  ", width / 2 - 40, 30);
+      text(score, width / 2 + 30, 30);
+      noLoop();
